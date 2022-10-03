@@ -1,0 +1,88 @@
+
+
+#title{
+    background-color: #181818;
+    color:white;
+    text-align: center;
+}
+
+.title-img{
+    width:50%;
+    position:relative;
+    left:25%;
+}   
+.head-col{
+    position:relative;
+    top:150px;
+    left:50px;
+}
+@media(max-width:900px)
+{
+    .head-col{
+        position:static;
+    }
+}
+.head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.head-para{
+    font-family: 'Merriweather', serif;
+    font-size:1.5rem;
+    padding:30px;
+}
+/* Navbar*/
+.navbar-nav{
+    padding:20px;
+}
+
+/*about*/
+
+#about{
+    padding:7% 15%;
+    text-align: center;
+}
+.about-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    padding-bottom: 15%;
+}
+.about-para{
+    font-family: 'Merriweather', serif;
+    padding:25% 7%;
+    color:#8f8f8f;
+}
+.skill-icon{
+    padding:45px 20px;
+    
+}
+
+
+/*footer*/
+#footer{
+    background-color: #181818;
+    color:#fff;
+    text-align: center;
+    padding:7% 15%;
+}
+.footer-head{
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-para{
+    font-family: 'Merriweather', serif;
+    padding:40px 0 0;
+}
+
+/*conncet*/
+
+#connect{
+    padding:7% 15%;
+    text-align: center;
+}
+.connect-icon{
+    padding:20px;
+}
+.connect-para{
+    padding-top:30px;
+}
